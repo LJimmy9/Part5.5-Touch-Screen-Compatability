@@ -1,4 +1,4 @@
-const walksound = new Audio ("/sounds/gulp.wav");
+const walksound = new Audio ("sounds/gulp.wav");
 
 class gameObject{
     constructor(config){
@@ -7,7 +7,7 @@ class gameObject{
         this.direction=config.direction||"down";
         this.sprite= new sprite ({
             gameObject:this,
-            src: config.src || "./images/characters/people/hero.png",
+            src: config.src || "images/characters/people/hero.png",
         });
     }
     update(){

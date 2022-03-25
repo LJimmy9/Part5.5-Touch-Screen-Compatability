@@ -22,8 +22,8 @@ class overWorldMaps{
 
 window.overWorldMaps = {
     demoRoom:{
-        lowerSrc:"/images/maps/DemoLower.png",
-        upperSrc:"/images/maps/DemoUpper.png",
+        lowerSrc:"images/maps/DemoLower.png",
+        upperSrc:"images/maps/DemoUpper.png",
         gameObjects:{
             hero: new Person({
                 isPlayerControlled : true,
@@ -34,13 +34,13 @@ window.overWorldMaps = {
                 
                 x:utils.withGrid(7),
                 y:utils.withGrid(9),
-                src:"/images/characters/people/npc1.png"
+                src:"images/characters/people/npc1.png"
             })
         }
     },
     kitchen:{
-        lowerSrc:"/images/maps/KitchenLower.png",
-        upperSrc:"/images/maps/KitchenUpper.png",
+        lowerSrc:"images/maps/KitchenLower.png",
+        upperSrc:"images/maps/KitchenUpper.png",
         gameObjects:{
             hero: new gameObject({
                 x:7,
@@ -49,7 +49,7 @@ window.overWorldMaps = {
             npc1: new gameObject({
                 x:5,
                 y:4,
-                src:"/images/characters/people/npc1.png"
+                src:"images/characters/people/npc1.png"
             })
         }
     },
